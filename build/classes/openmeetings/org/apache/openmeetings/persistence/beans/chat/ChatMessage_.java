@@ -14,7 +14,7 @@ import org.apache.openmeetings.persistence.beans.user.User;
 @javax.persistence.metamodel.StaticMetamodel
 (value=org.apache.openmeetings.persistence.beans.chat.ChatMessage.class)
 @javax.annotation.Generated
-(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Wed Mar 06 22:04:00 CST 2013")
+(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Thu Mar 07 11:05:06 CST 2013")
 public class ChatMessage_ {
     public static volatile SingularAttribute<ChatMessage,String> fromEmail;
     public static volatile SingularAttribute<ChatMessage,String> fromName;

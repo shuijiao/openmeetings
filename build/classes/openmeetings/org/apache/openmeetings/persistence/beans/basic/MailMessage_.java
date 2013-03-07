@@ -14,7 +14,7 @@ import org.apache.openmeetings.persistence.beans.basic.MailMessage.Status;
 @javax.persistence.metamodel.StaticMetamodel
 (value=org.apache.openmeetings.persistence.beans.basic.MailMessage.class)
 @javax.annotation.Generated
-(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Wed Mar 06 22:03:59 CST 2013")
+(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Thu Mar 07 11:05:05 CST 2013")
 public class MailMessage_ {
     public static volatile SingularAttribute<MailMessage,String> body;
     public static volatile SingularAttribute<MailMessage,Integer> errorCount;

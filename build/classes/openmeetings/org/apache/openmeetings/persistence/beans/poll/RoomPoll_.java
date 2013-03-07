@@ -16,7 +16,7 @@ import org.apache.openmeetings.persistence.beans.user.User;
 @javax.persistence.metamodel.StaticMetamodel
 (value=org.apache.openmeetings.persistence.beans.poll.RoomPoll.class)
 @javax.annotation.Generated
-(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Wed Mar 06 22:04:00 CST 2013")
+(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Thu Mar 07 11:05:06 CST 2013")
 public class RoomPoll_ {
     public static volatile SingularAttribute<RoomPoll,Boolean> archived;
     public static volatile SingularAttribute<RoomPoll,Date> created;
