@@ -27,6 +27,7 @@
         this.labelid = _labelid;
         this.setAttribute('headerText',canvas.getLabelName(this.labelid));
     </method>
+
     
     <attribute name="headerText" value="Users" type="string" />
     
