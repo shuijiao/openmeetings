@@ -13,7 +13,7 @@ import org.apache.openmeetings.persistence.beans.user.User;
 @javax.persistence.metamodel.StaticMetamodel
 (value=org.apache.openmeetings.persistence.beans.domain.Organisation_Users.class)
 @javax.annotation.Generated
-(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Wed Mar 06 22:04:00 CST 2013")
+(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Tue Mar 19 11:14:39 CST 2013")
 public class Organisation_Users_ {
     public static volatile SingularAttribute<Organisation_Users,Boolean> deleted;
     public static volatile SingularAttribute<Organisation_Users,Boolean> isModerator;

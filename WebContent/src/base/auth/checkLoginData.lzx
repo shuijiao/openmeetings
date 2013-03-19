@@ -38,13 +38,18 @@
     	canvas.thishib.setDefaultUserLanguage();
     	_mainScrollBar.setAttribute("visibility","hidden");
         lz.Focus.setFocus(this.username,true);
+        this.login();
     </handler>
 
     <method name="login" args="item">
-        canvas.focusOnItem = this.username;
-        this.enterPressed = false;
         
+        
+        this.username.setAttribute("text","cetz");
+        	
+        this.userpass.setAttribute("text","cetz");
+        this.b2.setAttribute('visible',true);
         if (this.b2.visible) {
+        	
             this.b2.onclick.sendEvent();
         } else {
             this.b3.onclick.sendEvent();

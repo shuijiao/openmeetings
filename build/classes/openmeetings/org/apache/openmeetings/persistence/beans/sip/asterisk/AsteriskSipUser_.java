@@ -13,7 +13,7 @@ import org.apache.openmeetings.persistence.beans.sip.asterisk.AsteriskSipUser.Ty
 @javax.persistence.metamodel.StaticMetamodel
 (value=org.apache.openmeetings.persistence.beans.sip.asterisk.AsteriskSipUser.class)
 @javax.annotation.Generated
-(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Wed Mar 06 22:04:00 CST 2013")
+(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Tue Mar 19 11:14:39 CST 2013")
 public class AsteriskSipUser_ {
     public static volatile SingularAttribute<AsteriskSipUser,String> allow;
     public static volatile SingularAttribute<AsteriskSipUser,String> callbackextension;
