@@ -1,0 +1,296 @@
+2013-03-27 09:14:40,808 [main] INFO  org.red5.server.Launcher - Red5 Server 1.0.0 RC3 $Rev: 4393 $ (http://code.google.com/p/red5/)
+2013-03-27 09:14:40,909 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1301ed8: startup date [Wed Mar 27 09:14:40 CST 2013]; root of context hierarchy
+2013-03-27 09:14:40,971 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5.xml]
+2013-03-27 09:14:41,240 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [jee-container.xml]
+2013-03-27 09:14:41,380 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2013-03-27 09:14:41,397 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1d0fafc: defining beans [placeholderConfig,red5.common,red5.core,context.loader,pluginLauncher,tomcat.server,rtmpt.server]; root of factory hierarchy
+2013-03-27 09:14:41,442 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3ef810: startup date [Wed Mar 27 09:14:41 CST 2013]; root of context hierarchy
+2013-03-27 09:14:41,443 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-common.xml]
+2013-03-27 09:14:41,560 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2013-03-27 09:14:41,567 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@cf66b: defining beans [placeholderConfig,red5.server,rmiRegistry,mbeanServer,org.springframework.jmx.support.ConnectorServerFactoryBean#0,mbeanExporter,serializer,deserializer,minaEncoder,minaDecoder,statusObjectService,rtmpCodecFactory,rtmptCodecFactory,remotingCodecFactory,streamableFileFactory,filePersistenceThread,sharedObjectService,streamService,providerService,consumerService,schedulingService,warDeployService,remotingClient,object.cache,keyframe.cache,flv.impl,flvreader.impl,org.springframework.beans.factory.config.MethodInvokingFactoryBean#0,org.springframework.beans.factory.config.MethodInvokingFactoryBean#1,streamExecutor,fileConsumer,playlistSubscriberStream,clientBroadcastStream]; root of factory hierarchy
+2013-03-27 09:14:41,588 [main] INFO  o.s.r.rmi.RmiRegistryFactoryBean - Creating new RMI registry
+2013-03-27 09:14:41,759 [main] INFO  o.s.j.s.ConnectorServerFactoryBean - JMX connector server started: javax.management.remote.rmi.RMIConnectorServer@a4488
+2013-03-27 09:14:41,783 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2013-03-27 09:14:41,786 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'org.springframework.jmx.support.ConnectorServerFactoryBean#0' has been autodetected for JMX exposure
+2013-03-27 09:14:41,854 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-03-27 09:14:41,856 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.1.8.5 created.
+2013-03-27 09:14:41,857 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2013-03-27 09:14:41,859 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v1.8.5) 'Red5_Scheduler' with instanceId 'shaohua-PC1364346881837'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2013-03-27 09:14:41,859 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'Red5_Scheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2013-03-27 09:14:41,860 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 1.8.5
+2013-03-27 09:14:41,861 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler Red5_Scheduler_$_shaohua-PC1364346881837 started.
+2013-03-27 09:14:41,862 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'schedulingService' has been autodetected for JMX exposure
+2013-03-27 09:14:41,883 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'clientBroadcastStream' has been autodetected for JMX exposure
+2013-03-27 09:14:41,901 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'org.springframework.jmx.support.ConnectorServerFactoryBean#0': registering with JMX server as MBean [org.red5.server:name=org.springframework.jmx.support.ConnectorServerFactoryBean#0,type=RMIConnectorServer]
+2013-03-27 09:14:41,903 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'schedulingService': registering with JMX server as MBean [org.red5.server:name=schedulingService,type=QuartzSchedulingService]
+2013-03-27 09:14:42,287 [main] INFO  org.red5.server.service.WarDeployer - War deployer service created
+2013-03-27 09:14:42,337 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@102a0a5: startup date [Wed Mar 27 09:14:42 CST 2013]; parent: ApplicationContext 'red5.common'
+2013-03-27 09:14:42,338 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-core.xml]
+2013-03-27 09:14:42,388 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2013-03-27 09:14:42,397 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6545d2: defining beans [customEditorConfigurer,placeholderConfig,rtmpMinaConnManager,rtmpHandler,rtmpMinaIoHandler,rtmpTransport,rtmpMinaConnection,rtmptConnManager,rtmptHandler,rtmptServlet,rtmptConnection]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@cf66b
+2013-03-27 09:14:42,427 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport bound to /0.0.0.0:1935
+2013-03-27 09:14:42,430 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport Settings
+2013-03-27 09:14:42,431 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - I/O Threads: 16
+2013-03-27 09:14:42,493 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - TCP No Delay: true
+2013-03-27 09:14:42,494 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Settings - send buffer size: 65536 recv buffer size: 65536 so linger: -1 traffic class: 24
+2013-03-27 09:14:42,528 [main] INFO  org.red5.server.ContextLoader - ContextLoader init
+2013-03-27 09:14:42,530 [main] INFO  org.red5.server.ContextLoader - Loading: default.context = ${red5.root}/webapps/red5-default.xml => E:/workplace1/Openmeetings/dist/red5/webapps/red5-default.xml
+2013-03-27 09:14:42,531 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@6d3b92: startup date [Wed Mar 27 09:14:42 CST 2013]; parent: ApplicationContext 'red5.common'
+2013-03-27 09:14:42,534 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [E:\workplace1\Openmeetings\dist\red5\webapps\red5-default.xml]
+2013-03-27 09:14:42,559 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1d709a5: defining beans [global.clientRegistry,global.serviceInvoker,global.mappingStrategy,global.context,global.handler,global.scope,red5.scopeResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@cf66b
+2013-03-27 09:14:42,598 [main] INFO  org.red5.server.Context - Setting parent bean factory as core
+2013-03-27 09:14:42,731 [main] INFO  org.red5.server.tomcat.TomcatLoader - Setting connector: org.apache.catalina.connector.Connector
+2013-03-27 09:14:42,731 [main] INFO  org.red5.server.tomcat.TomcatLoader - Address to bind: /0.0.0.0:5080
+2013-03-27 09:14:42,732 [main] INFO  org.red5.server.tomcat.TomcatLoader - Loading tomcat context
+2013-03-27 09:14:42,733 [main] INFO  org.red5.server.tomcat.TomcatLoader - Server root: E:/workplace1/Openmeetings/dist/red5
+2013-03-27 09:14:42,733 [main] INFO  org.red5.server.tomcat.TomcatLoader - Config root: E:/workplace1/Openmeetings/dist/red5/conf
+2013-03-27 09:14:42,748 [main] INFO  org.red5.server.tomcat.TomcatLoader - Application root: E:/workplace1/Openmeetings/dist/red5/webapps
+2013-03-27 09:14:42,790 [main] INFO  org.red5.server.tomcat.TomcatLoader - Starting Tomcat servlet engine
+2013-03-27 09:14:42,928 [main] INFO  o.a.coyote.http11.Http11Protocol - Initializing ProtocolHandler ["http-bio-0.0.0.0-5080"]
+2013-03-27 09:14:42,945 [main] INFO  o.apache.catalina.startup.Embedded - Starting tomcat server
+2013-03-27 09:14:42,947 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/7.0.34
+2013-03-27 09:14:53,112 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] - No Spring WebApplicationInitializer types detected on classpath
+2013-03-27 09:14:53,246 [0.0.0.0-startStop-1] INFO  o.a.wicket.util.file.WebXmlFile - web.xml: url mapping found for filter with name OpenmeetingsApplication: [/html/*]
+2013-03-27 09:14:53,382 [0.0.0.0-startStop-1] INFO  org.apache.wicket.Application - [OpenmeetingsApplication] init: Wicket core library initializer
+2013-03-27 09:14:53,386 [0.0.0.0-startStop-1] INFO  o.a.wicket.RequestListenerInterface - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+2013-03-27 09:14:53,387 [0.0.0.0-startStop-1] INFO  o.a.wicket.RequestListenerInterface - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+2013-03-27 09:14:53,387 [0.0.0.0-startStop-1] INFO  o.a.wicket.RequestListenerInterface - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+2013-03-27 09:14:53,389 [0.0.0.0-startStop-1] INFO  o.a.wicket.RequestListenerInterface - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+2013-03-27 09:14:53,390 [0.0.0.0-startStop-1] INFO  o.a.wicket.RequestListenerInterface - registered listener interface [RequestListenerInterface name=IRedirectListener, method=public abstract void org.apache.wicket.IRedirectListener.onRedirect()]
+2013-03-27 09:14:53,393 [0.0.0.0-startStop-1] INFO  o.a.wicket.RequestListenerInterface - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+2013-03-27 09:14:53,394 [0.0.0.0-startStop-1] INFO  org.apache.wicket.Application - [OpenmeetingsApplication] init: Wicket extensions initializer
+2013-03-27 09:14:53,541 [0.0.0.0-startStop-1] INFO  o.a.w.protocol.http.WebApplication - [OpenmeetingsApplication] Started Wicket version 6.6.0 in DEPLOYMENT mode
+2013-03-27 09:14:53,835 [0.0.0.0-startStop-1] INFO  o.a.axis2.deployment.ClusterBuilder - Clustering has been disabled
+2013-03-27 09:14:53,889 [0.0.0.0-startStop-1] INFO  o.a.a.deployment.DeploymentEngine - No modules directory was found under E:\workplace1\Openmeetings\dist\red5\webapps\openmeetings\WEB-INF.
+2013-03-27 09:14:54,392 [0.0.0.0-startStop-1] INFO  o.a.axis2.deployment.ModuleDeployer - Deploying module: addressing-1.7.0-SNAPSHOT - file:/E:/workplace1/Openmeetings/dist/red5/webapps/openmeetings/WEB-INF/lib/axis2-jar-1.7.0-SNAPSHOT.jar
+2013-03-27 09:14:54,986 [0.0.0.0-startStop-1] INFO  o.a.a.deployment.DeploymentEngine - Deploying Web service: openmeetings-2.1.0-SNAPSHOT.aar - file:/E:/workplace1/Openmeetings/dist/red5/webapps/openmeetings/WEB-INF/services/openmeetings-2.1.0-SNAPSHOT.aar
+2013-03-27 09:14:54,998 [0.0.0.0-startStop-1] INFO  o.a.a.deployment.DeploymentEngine - Deploying Web service: version.aar - file:/E:/workplace1/Openmeetings/dist/red5/webapps/openmeetings/WEB-INF/services/version.aar
+2013-03-27 09:14:55,010 [0.0.0.0-startStop-1] WARN  o.a.a.transport.http.AxisServlet - No transportReceiver for org.apache.axis2.transport.http.AxisServletListener found. An instance for HTTP will be configured automatically. Please update your axis2.xml file!
+2013-03-27 09:14:59,124 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/] - No Spring WebApplicationInitializer types detected on classpath
+2013-03-27 09:14:59,135 [main] INFO  o.a.coyote.http11.Http11Protocol - Starting ProtocolHandler ["http-bio-0.0.0.0-5080"]
+2013-03-27 09:14:59,190 [Launcher:/openmeetings] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed Mar 27 09:14:59 CST 2013]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@6d3b92
+2013-03-27 09:14:59,192 [Launcher:/] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Wed Mar 27 09:14:59 CST 2013]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@6d3b92
+2013-03-27 09:14:59,199 [Launcher:/] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2013-03-27 09:14:59,214 [main] INFO  org.red5.server.tomcat.TomcatLoader - Setting connector: org.apache.catalina.connector.Connector
+2013-03-27 09:14:59,215 [main] INFO  org.red5.server.tomcat.TomcatLoader - Address to bind: /0.0.0.0:8088
+2013-03-27 09:14:59,216 [main] INFO  o.r.server.tomcat.rtmpt.RTMPTLoader - Loading RTMPT context
+2013-03-27 09:14:59,222 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/7.0.34
+2013-03-27 09:14:59,224 [Launcher:/openmeetings] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2013-03-27 09:14:59,242 [Launcher:/] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2013-03-27 09:14:59,246 [Launcher:/openmeetings] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/openmeetings-applicationContext.xml]
+2013-03-27 09:14:59,253 [Launcher:/] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1adff28: defining beans [placeholderConfig,web.context,web.scope]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1d709a5
+2013-03-27 09:14:59,257 [Launcher:/] INFO  org.red5.server.Context - Setting parent bean factory as core
+2013-03-27 09:14:59,352 [Launcher:/] INFO  org.red5.server.scope.WebScope - Set server [Server@1c8f644map[[empty]]]
+2013-03-27 09:14:59,372 [Launcher:/] INFO  org.red5.server.Server - Add mapping global: default host:  context: 
+2013-03-27 09:14:59,379 [Launcher:/] WARN  org.red5.server.scope.Scope - Invalid scope was not added: [WebScope@ca548b Depth = 1, Path = '/default', Name = '']
+2013-03-27 09:14:59,869 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] Searching for properties at: /org/apache/velocity/tools/view/velocity.properties
+2013-03-27 09:14:59,872 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] Searching for properties at: /WEB-INF/velocity.properties
+2013-03-27 09:14:59,877 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Configuring Velocity with properties at: /WEB-INF/velocity.properties
+2013-03-27 09:14:59,880 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Initializing Velocity, Calling init()...
+2013-03-27 09:14:59,883 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] *******************************************************************
+2013-03-27 09:14:59,886 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2013-03-27 09:14:59,887 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] RuntimeInstance initializing.
+2013-03-27 09:14:59,894 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2013-03-27 09:14:59,897 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Trying to use logger class org.apache.velocity.runtime.log.ServletLogChute
+2013-03-27 09:14:59,899 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Using logger class org.apache.velocity.runtime.log.ServletLogChute
+2013-03-27 09:14:59,941 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2013-03-27 09:14:59,955 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2013-03-27 09:14:59,959 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] FileResourceLoader : initialization starting.
+2013-03-27 09:14:59,961 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Do unicode file recognition:  false
+2013-03-27 09:14:59,963 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] FileResourceLoader : adding path './classes'
+2013-03-27 09:14:59,964 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] FileResourceLoader : initialization complete.
+2013-03-27 09:14:59,971 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2013-03-27 09:14:59,973 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] ClasspathResourceLoader : initialization complete.
+2013-03-27 09:15:00,032 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2013-03-27 09:15:00,034 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] Default ResourceManager initialization complete.
+2013-03-27 09:15:00,039 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2013-03-27 09:15:00,045 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2013-03-27 09:15:00,048 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2013-03-27 09:15:00,052 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2013-03-27 09:15:00,056 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2013-03-27 09:15:00,063 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2013-03-27 09:15:00,068 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2013-03-27 09:15:00,282 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2013-03-27 09:15:00,286 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2013-03-27 09:15:00,377 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Created '20' parsers.
+2013-03-27 09:15:00,381 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] Velocimacro : initialization starting.
+2013-03-27 09:15:00,385 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2013-03-27 09:15:00,393 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2013-03-27 09:15:00,394 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Velocimacro : Default library not found.
+2013-03-27 09:15:00,399 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Velocimacro : allowInline = true : VMs can be defined inline in templates
+2013-03-27 09:15:00,405 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2013-03-27 09:15:00,410 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2013-03-27 09:15:00,415 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Velocimacro : autoload off : VM system will not automatically reload global library macros
+2013-03-27 09:15:00,417 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] Velocimacro : Velocimacro : initialization complete.
+2013-03-27 09:15:00,420 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] RuntimeInstance successfully initialized.
+2013-03-27 09:15:00,506 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] Searching for configuration at: /WEB-INF/toolbox.xml
+2013-03-27 09:15:00,533 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Did not find resource at: /WEB-INF/toolbox.xml
+2013-03-27 09:15:00,535 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] Loading default tools configuration...
+2013-03-27 09:15:01,449 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [trace] Searching for configuration at: /WEB-INF/tools.xml
+2013-03-27 09:15:01,452 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Did not find resource at: /WEB-INF/tools.xml
+2013-03-27 09:15:01,458 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Configuring factory with: 
+FactoryConfiguration from 6 sources including 4 data with 3 toolboxes: 
+ Toolbox 'application' with 1 properties [scope -auto-> application; ] and 12 tools: 
+  Tool 'alternator' => org.apache.velocity.tools.generic.AlternatorTool 
+  Tool 'class' => org.apache.velocity.tools.generic.ClassTool 
+  Tool 'convert' => org.apache.velocity.tools.generic.ConversionTool 
+  Tool 'date' => org.apache.velocity.tools.generic.ComparisonDateTool 
+  Tool 'display' => org.apache.velocity.tools.generic.DisplayTool 
+  Tool 'esc' => org.apache.velocity.tools.generic.EscapeTool 
+  Tool 'field' => org.apache.velocity.tools.generic.FieldTool 
+  Tool 'math' => org.apache.velocity.tools.generic.MathTool 
+  Tool 'number' => org.apache.velocity.tools.generic.NumberTool 
+  Tool 'sorter' => org.apache.velocity.tools.generic.SortTool 
+  Tool 'text' => org.apache.velocity.tools.generic.ResourceTool 
+  Tool 'xml' => org.apache.velocity.tools.generic.XmlTool 
+  
+ Toolbox 'request' with 1 properties [scope -auto-> request; ] and 9 tools: 
+  Tool 'context' => org.apache.velocity.tools.view.ViewContextTool 
+  Tool 'cookies' => org.apache.velocity.tools.view.CookieTool 
+  Tool 'import' => org.apache.velocity.tools.view.ImportTool 
+  Tool 'include' => org.apache.velocity.tools.view.IncludeTool 
+  Tool 'link' => org.apache.velocity.tools.struts.StrutsLinkTool 
+  Tool 'loop' => org.apache.velocity.tools.generic.LoopTool 
+  Tool 'pager' => org.apache.velocity.tools.view.PagerTool 
+  Tool 'params' => org.apache.velocity.tools.view.ParameterTool 
+  Tool 'render' => org.apache.velocity.tools.generic.RenderTool 
+  
+ Toolbox 'session' with 2 properties [createSession -auto-> false; scope -auto-> session; ] and 1 tools: 
+  Tool 'browser' => org.apache.velocity.tools.view.BrowserTool 
+  
+ Data 'GENERIC_TOOLS_AVAILABLE' -boolean-> true
+ Data 'STRUTS_TOOLS_AVAILABLE' -boolean-> true
+ Data 'TOOLS_VERSION' -number-> 2.0
+ Data 'VIEW_TOOLS_AVAILABLE' -boolean-> true
+ 
+ Source 0: org.apache.velocity.tools.config.FactoryConfiguration(VelocityView.configure(config,factory))
+ Source 1: org.apache.velocity.tools.config.XmlFactoryConfiguration(ConfigurationUtils.getDefaultTools())
+ Source 2:     .read(jar:file:/E:/workplace1/Openmeetings/dist/red5/webapps/openmeetings/WEB-INF/lib/velocity-tools-jar-2.0.jar!/org/apache/velocity/tools/generic/tools.xml)
+ Source 3:     .read(jar:file:/E:/workplace1/Openmeetings/dist/red5/webapps/openmeetings/WEB-INF/lib/velocity-tools-jar-2.0.jar!/org/apache/velocity/tools/view/tools.xml)
+ Source 4:     .read(jar:file:/E:/workplace1/Openmeetings/dist/red5/webapps/openmeetings/WEB-INF/lib/velocity-tools-jar-2.0.jar!/org/apache/velocity/tools/struts/tools.xml)
+ Source 5: org.apache.velocity.tools.config.FactoryConfiguration(ConfigurationUtils.getAutoLoaded(false))
+
+2013-03-27 09:15:01,469 [http-bio-0.0.0.0-5080-exec-1] INFO  o.a.c.c.C.[.[.0.0.0.[/openmeetings] -  Velocity  [debug] Default Content-Type is: text/html; charset=UTF-8
+2013-03-27 09:15:01,821 [Launcher:/openmeetings] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2013-03-27 09:15:01,990 [Launcher:/openmeetings] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1606bf5: defining beans [red5WebPlaceholderConfig,web.context,web.scope,entityManagerFactory,transactionManager,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,jpaTransactionManager,multipartResolver,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,backupImportController,importController,networkTestingController,screenController,uploadController,web.handler,openmeetings.SessionManager,openmeetings.EmoticonsManager,openmeetings.HashMapStore,whiteBoardObjectListManagerById,whiteBoardObjectSyncManager,openmeetings.DatabaseStore,openmeetings.ServerUtil,xmlcrm.service,printservice.service,pollservice.service,organisationservice.service,meetingmemberservice.service,languageservice.service,invitationservice.service,ldapconfigservice.service,whiteboardservice.service,userservice.service,fileservice.service,openmeetings.FileProcessor,openmeetings.FlvExplorerConverter,errorservice.service,conferenceservice.service,configservice.service,chatservice.service,calendarservice.service,flvrecorderservice.service,openmeetings.FlvRecorderConverterTask,openmeetings.FlvInterviewConverterTask,openmeetings.FlvInterviewReConverterTask,openmeetings.FlvInterviewConverter,openmeetings.FlvRecorderConverter,openmeetings.SlaveHTTPConnectionManager,openmeetings.SessionClearJob,sessionClearJob,triggerSessionClear,openmeetings.MeetingReminderJob,meetingReminderClear,triggerMeetingReminder,testSetupCleanupJob,testSetupCleanup,triggerTestSetupCleanup,mailHandler,resetSendingMailStatus,triggerResetSendingMailStatus,sendMails,triggerSendMails,org.springframework.scheduling.quartz.SchedulerFactoryBean#0,appointmentReminderTypDaoImpl,appointmentCategoryDaoImpl,roommanagement,roomDao,sipDao,organisationmanagement,organisationDao,organisationUserDao,salutationmanagement,errorManagement,navimanagement,pollManagement,omTimeZoneDaoImpl,statemanagement,fieldLanguageDaoImpl,fieldValueDaoImpl,fieldLanguagesValuesDAO,fieldmanagment,configurationDaoImpl,appointmentDao,appointmentLogic,meetingMemberLogic,sessionManagement,userManagement,roomModeratorsDao,conferenceLogDao,conferenceLogTypeDao,emailManagement,fileExplorerItemDao,flvRecordingDao,flvRecordingLogDao,flvRecordingMetaDataDao,flvRecordingMetaDeltaDao,ldapConfigDao,invitationManagement,meetingMemberDao,privateMessageFolderDao,privateMessagesDao,soapLoginDao,userContactsDao,usersDao,serverDao,chatDao,clientDao,mailMessageDao,manageCryptStyle,generateImage,generateThumbs,generatePDF,smsHandler,feedbackManagement,importInitvalues,languageImport,userImport,libraryWmlLoader,loadAtomRssFeed,authLevelManagement,generateSWF,fileUtils,ldapLoginManagement,timezoneUtil,whiteboardManagement,registerUserTemplate,feedbackTemplate,invitationTemplate,requestContactTemplate,requestContactConfirmTemplate,resetPasswordTemplate,taskExecutor,userWebService,roomWebService,fileWebService,calendarWebService,jabberWebService,serverWebService,backupExport,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1d709a5
+2013-03-27 09:15:02,074 [Launcher:/openmeetings] INFO  org.red5.server.Context - Setting parent bean factory as core
+2013-03-27 09:15:02,434 [Launcher:/openmeetings] INFO  o.s.o.j.LocalEntityManagerFactoryBean - Building JPA EntityManagerFactory for persistence unit 'openmeetings'
+2013-03-27 09:15:04,151 [Launcher:/openmeetings] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService  'taskExecutor'
+2013-03-27 09:15:05,019 [Launcher:/openmeetings] INFO  org.red5.server.scope.WebScope - Set server [Server@1c8f644map['/' -> 'default']]
+2013-03-27 09:15:05,023 [Launcher:/openmeetings] INFO  org.red5.server.Server - Add mapping global: default host:  context: openmeetings
+2013-03-27 09:15:05,024 [Launcher:/openmeetings] INFO  org.red5.server.Server - Add mapping global: default host: localhost context: openmeetings
+2013-03-27 09:15:05,025 [Launcher:/openmeetings] INFO  org.red5.server.Server - Add mapping global: default host: 127.0.0.1 context: openmeetings
+2013-03-27 09:15:07,917 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/] - No Spring WebApplicationInitializer types detected on classpath
+2013-03-27 09:15:07,931 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2013-03-27 09:15:07,953 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2013-03-27 09:15:07,970 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2013-03-27 09:15:08,044 [main] INFO  o.r.server.tomcat.rtmpt.RTMPTLoader - Starting RTMPT engine
+2013-03-27 09:15:08,056 [main] INFO  o.a.catalina.util.LifecycleBase - The start() method was called on component [Connector[org.apache.coyote.http11.Http11NioProtocol-8088]] after start() had already been called. The second call will be ignored.
+2013-03-27 09:15:09,855 [Launcher:/openmeetings] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/backup.upload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.apache.openmeetings.servlet.outputhandler.BackupImportController.service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2013-03-27 09:15:09,857 [Launcher:/openmeetings] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/import.upload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void org.apache.openmeetings.servlet.outputhandler.ImportController.service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException
+2013-03-27 09:15:09,859 [Launcher:/openmeetings] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/networktest.upload],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.apache.openmeetings.servlet.outputhandler.NetworkTestingController.serviceGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession) throws javax.servlet.ServletException,java.io.IOException
+2013-03-27 09:15:09,862 [Launcher:/openmeetings] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/networktest.upload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.apache.openmeetings.servlet.outputhandler.NetworkTestingController.servicePost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession) throws javax.servlet.ServletException,java.io.IOException
+2013-03-27 09:15:09,864 [Launcher:/openmeetings] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/screen.upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.apache.openmeetings.servlet.outputhandler.ScreenController.handleRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2013-03-27 09:15:09,866 [Launcher:/openmeetings] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/file.upload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.apache.openmeetings.servlet.outputhandler.UploadController.handleFileUpload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession) throws javax.servlet.ServletException
+2013-03-27 09:15:09,868 [Launcher:/openmeetings] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/upload.upload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void org.apache.openmeetings.servlet.outputhandler.UploadController.handleFormUpload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException
+2013-03-27 09:15:11,304 [Launcher:/openmeetings] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-03-27 09:15:11,304 [Launcher:/openmeetings] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.1.8.5 created.
+2013-03-27 09:15:11,305 [Launcher:/openmeetings] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2013-03-27 09:15:11,307 [Launcher:/openmeetings] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v1.8.5) 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2013-03-27 09:15:11,308 [Launcher:/openmeetings] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2013-03-27 09:15:11,310 [Launcher:/openmeetings] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 1.8.5
+2013-03-27 09:15:11,315 [Launcher:/openmeetings] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@daab16
+2013-03-27 09:15:11,497 [Launcher:/openmeetings] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2013-03-27 09:15:11,497 [Launcher:/openmeetings] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2013-03-27 09:15:11,497 [Launcher:/openmeetings] INFO  org.quartz.core.QuartzScheduler - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2013-03-27 09:15:36,205 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action connect
+2013-03-27 09:15:36,210 [NioProcessor-2] INFO  o.red5.server.net.rtmp.RTMPHandler - Connecting to: [Scope@a88765 Depth = 2, Path = '/default/openmeetings', Name = 'hibernate']
+2013-03-27 09:15:36,212 [NioProcessor-2] INFO  o.a.o.r.r.ScopeApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:0
+2013-03-27 09:15:36,212 [NioProcessor-2] INFO  o.a.o.r.r.ScopeApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:0
+2013-03-27 09:15:36,535 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action _result
+2013-03-27 09:15:36,539 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action _error
+2013-03-27 09:15:36,539 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action xmlcrm.getsessiondata
+2013-03-27 09:15:36,648 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action _error
+2013-03-27 09:15:36,740 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action getPublicSID
+2013-03-27 09:15:36,942 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action _error
+2013-03-27 09:15:36,945 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguages
+2013-03-27 09:15:37,015 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action _error
+2013-03-27 09:15:37,107 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getDefaultLanguage
+2013-03-27 09:15:37,163 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:37,335 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:37,434 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:37,574 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:37,753 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:37,998 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:38,213 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:38,438 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:38,643 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:38,889 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:39,117 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:39,402 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:39,676 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:39,914 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:40,301 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:40,670 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:41,033 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:15:41,406 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action xmlcrm.getStates
+2013-03-27 09:15:45,285 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action xmlcrm.getTimeZones
+2013-03-27 09:15:48,506 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action xmlcrm.getGeneralOptions
+2013-03-27 09:15:48,716 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.getUserSalutations
+2013-03-27 09:15:48,995 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action xmlcrm.loginByRemember
+2013-03-27 09:15:49,538 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action ldapconfigservice.getActiveLdapConfigs
+2013-03-27 09:15:49,691 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action xmlcrm.getLoginOptions
+2013-03-27 09:16:01,196 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action xmlcrm.loginUser
+2013-03-27 09:16:01,746 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action xmlcrm.setCurrentUserOrganization
+2013-03-27 09:16:01,797 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:01,922 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:02,017 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:02,151 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:02,283 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:02,453 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:02,659 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:02,922 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:03,118 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:03,404 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:03,621 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:03,991 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:04,353 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:04,713 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:05,045 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:05,415 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:05,809 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action languageservice.getLanguageByIdAndMax
+2013-03-27 09:16:06,227 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action conferenceservice.getRoomTypes
+2013-03-27 09:16:06,424 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action setUsernameAndSession
+2013-03-27 09:16:06,608 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action xmlcrm.getDashboardConfiguration
+2013-03-27 09:16:06,804 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action xmlcrm.getNavi
+2013-03-27 09:16:10,774 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.getNumberUnreadMessages
+2013-03-27 09:16:10,917 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.getUserSelf
+2013-03-27 09:16:10,919 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action conferenceservice.getAppointedMeetingRoomsWithoutType
+2013-03-27 09:16:10,919 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action chatservice.getOverallChatHistory
+2013-03-27 09:16:11,051 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action chatservice.getChatOverallUsers
+2013-03-27 09:16:11,051 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action conferenceservice.getRoomsPublicWithoutType
+2013-03-27 09:16:11,051 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action conferenceservice.getRoomsByOrganisationWithoutType
+2013-03-27 09:16:11,051 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action conferenceservice.getAppointedMeetingRoomsWithoutType
+2013-03-27 09:16:36,507 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
+2013-03-27 09:17:36,574 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
+2013-03-27 09:18:36,641 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
+2013-03-27 09:19:36,807 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
+2013-03-27 09:20:36,941 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
+2013-03-27 09:21:37,007 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
+2013-03-27 09:22:37,108 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
+2013-03-27 09:23:37,174 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
+2013-03-27 09:24:37,241 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession

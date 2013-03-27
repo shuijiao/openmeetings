@@ -15,7 +15,7 @@ import org.apache.openmeetings.persistence.beans.basic.Server;
 @javax.persistence.metamodel.StaticMetamodel
 (value=org.apache.openmeetings.persistence.beans.room.Client.class)
 @javax.annotation.Generated
-(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Thu Mar 07 11:05:06 CST 2013")
+(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Wed Mar 27 09:07:18 CST 2013")
 public class Client_ {
     public static volatile SingularAttribute<Client,Boolean> allowRecording;
     public static volatile SingularAttribute<Client,String> avsettings;

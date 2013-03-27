@@ -14,7 +14,7 @@ import org.apache.openmeetings.persistence.beans.user.User;
 @javax.persistence.metamodel.StaticMetamodel
 (value=org.apache.openmeetings.persistence.beans.basic.Configuration.class)
 @javax.annotation.Generated
-(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Thu Mar 07 11:05:05 CST 2013")
+(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Wed Mar 27 09:07:18 CST 2013")
 public class Configuration_ {
     public static volatile SingularAttribute<Configuration,String> comment;
     public static volatile SingularAttribute<Configuration,String> conf_key;

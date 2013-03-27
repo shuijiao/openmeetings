@@ -1,0 +1,229 @@
+DEBUG 03-27 09:14:53.136 ContextLoggingListener.java 17 72 ROOT [0.0.0.0-startStop-1] - Starting up context openmeetings
+ INFO 03-27 09:15:01.636 DirectJDKLog.java 8517 183 org.apache.catalina.core.ContainerBase.[red5Engine].[0.0.0.0].[/openmeetings] [http-bio-0.0.0.0-5080-exec-1] -  Velocity  [debug] ResourceManager : found booting_install.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+DEBUG 03-27 09:15:05.039 ScopeApplicationAdapter.java 11920 131 org.apache.openmeetings.remote.red5.ScopeApplicationAdapter [Launcher:/openmeetings] - webAppPath : E:\workplace1\Openmeetings\dist\red5\webapps\openmeetings
+DEBUG 03-27 09:15:09.640 EmoticonsManager.java 16521 62 org.apache.openmeetings.data.whiteboard.EmoticonsManager [Launcher:/openmeetings] - ##### loadEmot completed
+DEBUG 03-27 09:15:09.644 ScopeApplicationAdapter.java 16525 151 org.apache.openmeetings.remote.red5.ScopeApplicationAdapter [Launcher:/openmeetings] - 
+	################################################
+	#            Openmeetings is up                #
+	#             and ready to use                 #
+	################################################
+
+DEBUG 03-27 09:15:16.273 MeetingReminderJob.java 23154 34 org.apache.openmeetings.quartz.scheduler.MeetingReminderJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] - MeetingReminderJob.execute
+DEBUG 03-27 09:15:16.288 SessiondataDao.java 23169 410 org.apache.openmeetings.data.basic.SessiondataDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] - ****** clearSessionTable: 
+DEBUG 03-27 09:15:16.333 SessiondataDao.java 23214 414 org.apache.openmeetings.data.basic.SessiondataDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] - clearSessionTable: 0
+DEBUG 03-27 09:15:16.337 AppointmentDao.java 23218 929 org.apache.openmeetings.data.calendar.daos.AppointmentDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] - startStamp 2013-03-27 09:15:16.31
+DEBUG 03-27 09:15:16.338 AppointmentDao.java 23219 930 org.apache.openmeetings.data.calendar.daos.AppointmentDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] - stopStamp 2013-03-27 09:30:16.31
+DEBUG 03-27 09:15:16.353 AppointmentLogic.java 23234 423 org.apache.openmeetings.data.calendar.management.AppointmentLogic [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] - doScheduledMeetingReminder : no Appointments in range
+ INFO 03-27 09:15:25.656 DirectJDKLog.java 32537 183 org.apache.catalina.core.ContainerBase.[red5Engine].[0.0.0.0].[/openmeetings] [http-bio-0.0.0.0-5080-exec-6] -  Velocity  [debug] ResourceManager : found usual_template.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+DEBUG 03-27 09:15:36.213 ScopeApplicationAdapter.java 43094 166 org.apache.openmeetings.remote.red5.ScopeApplicationAdapter [NioProcessor-2] - roomConnect : 
+DEBUG 03-27 09:15:36.214 ScopeApplicationAdapter.java 43095 178 org.apache.openmeetings.remote.red5.ScopeApplicationAdapter [NioProcessor-2] - ### Client connected to OpenMeetings, register Client StreamId: 0 scope hibernate isAVClient false
+DEBUG 03-27 09:15:36.215 ScopeApplicationAdapter.java 43096 180 org.apache.openmeetings.remote.red5.ScopeApplicationAdapter [NioProcessor-2] - params [Ljava.lang.Object;@d81c91
+DEBUG 03-27 09:15:36.223 ManageCryptStyle.java 43104 38 org.apache.openmeetings.utils.crypt.ManageCryptStyle [NioProcessor-2] - getInstanceOfCrypt: org.apache.openmeetings.utils.crypt.ManageCryptStyle@18a79e
+DEBUG 03-27 09:15:36.224 ManageCryptStyle.java 43105 43 org.apache.openmeetings.utils.crypt.ManageCryptStyle [NioProcessor-2] - configKeyCryptClassName: org.apache.openmeetings.utils.crypt.MD5Implementation
+DEBUG 03-27 09:15:36.554 SessiondataDao.java 43435 72 org.apache.openmeetings.data.basic.SessiondataDao [NioProcessor-2] - startsession :: startsession
+DEBUG 03-27 09:15:36.556 ManageCryptStyle.java 43437 38 org.apache.openmeetings.utils.crypt.ManageCryptStyle [NioProcessor-2] - getInstanceOfCrypt: org.apache.openmeetings.utils.crypt.ManageCryptStyle@18a79e
+DEBUG 03-27 09:15:36.557 ManageCryptStyle.java 43438 43 org.apache.openmeetings.utils.crypt.ManageCryptStyle [NioProcessor-2] - configKeyCryptClassName: org.apache.openmeetings.utils.crypt.MD5Implementation
+DEBUG 03-27 09:15:37.259 FieldManager.java 44140 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:37.263 FieldManager.java 44144 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:37.381 FieldManager.java 44262 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:37.382 FieldManager.java 44263 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:37.499 FieldManager.java 44380 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:37.501 FieldManager.java 44382 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:37.661 FieldManager.java 44542 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:37.661 FieldManager.java 44542 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:37.886 FieldManager.java 44767 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:37.889 FieldManager.java 44770 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:38.142 FieldManager.java 45023 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:38.145 FieldManager.java 45026 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:38.381 FieldManager.java 45262 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:38.383 FieldManager.java 45264 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:38.583 FieldManager.java 45464 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:38.584 FieldManager.java 45465 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:38.824 FieldManager.java 45705 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:38.825 FieldManager.java 45706 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:39.062 FieldManager.java 45943 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:39.063 FieldManager.java 45944 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:39.354 FieldManager.java 46235 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:39.355 FieldManager.java 46236 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:39.630 FieldManager.java 46511 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:39.631 FieldManager.java 46512 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:39.871 FieldManager.java 46752 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:39.872 FieldManager.java 46753 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:40.248 FieldManager.java 47129 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:40.249 FieldManager.java 47130 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:40.600 FieldManager.java 47481 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:40.601 FieldManager.java 47482 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:40.992 FieldManager.java 47873 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:40.993 FieldManager.java 47874 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:41.360 FieldManager.java 48241 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:15:41.361 FieldManager.java 48242 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:15:49.029 SessiondataDao.java 55910 94 org.apache.openmeetings.data.basic.SessiondataDao [NioProcessor-2] - updateUser User SID: 
+ERROR 03-27 09:15:49.045 SessiondataDao.java 55926 106 org.apache.openmeetings.data.basic.SessiondataDao [NioProcessor-2] - Could not find session to update: 
+DEBUG 03-27 09:15:49.555 LdapConfigDao.java 56436 246 org.apache.openmeetings.data.basic.dao.LdapConfigDao [NioProcessor-2] - selectMaxFromConfigurations 
+ WARN 03-27 09:16:01.197 MainService.java 68078 307 org.apache.openmeetings.remote.MainService [NioProcessor-2] - loginUser: 86b7c160bb4b488d7498818e7bb27af8 cetz
+DEBUG 03-27 09:16:01.198 UserManager.java 68079 230 org.apache.openmeetings.data.user.UserManager [NioProcessor-2] - Login user SID : 86b7c160bb4b488d7498818e7bb27af8 Stored Permanent :false
+DEBUG 03-27 09:16:01.232 UserManager.java 68113 243 org.apache.openmeetings.data.user.UserManager [NioProcessor-2] - debug SIZE: 1
+DEBUG 03-27 09:16:01.262 ManageCryptStyle.java 68143 38 org.apache.openmeetings.utils.crypt.ManageCryptStyle [NioProcessor-2] - getInstanceOfCrypt: org.apache.openmeetings.utils.crypt.ManageCryptStyle@18a79e
+DEBUG 03-27 09:16:01.265 ManageCryptStyle.java 68146 43 org.apache.openmeetings.utils.crypt.ManageCryptStyle [NioProcessor-2] - configKeyCryptClassName: org.apache.openmeetings.utils.crypt.MD5Implementation
+DEBUG 03-27 09:16:01.270 SessiondataDao.java 68151 200 org.apache.openmeetings.data.basic.SessiondataDao [NioProcessor-2] - updateUser User: 1 || 86b7c160bb4b488d7498818e7bb27af8
+DEBUG 03-27 09:16:01.277 SessiondataDao.java 68158 215 org.apache.openmeetings.data.basic.SessiondataDao [NioProcessor-2] - Found session to update: 86b7c160bb4b488d7498818e7bb27af8 userId: 1
+DEBUG 03-27 09:16:01.288 UserManager.java 68169 280 org.apache.openmeetings.data.user.UserManager [NioProcessor-2] - loginUser [org.apache.openmeetings.persistence.beans.domain.Organisation_Users@20]
+DEBUG 03-27 09:16:01.289 UserManager.java 68170 282 org.apache.openmeetings.data.user.UserManager [NioProcessor-2] - loginUser size 1
+DEBUG 03-27 09:16:01.748 SessiondataDao.java 68629 242 org.apache.openmeetings.data.basic.SessiondataDao [NioProcessor-2] - updateUserOrg User: 1 || 86b7c160bb4b488d7498818e7bb27af8
+DEBUG 03-27 09:16:01.751 SessiondataDao.java 68632 257 org.apache.openmeetings.data.basic.SessiondataDao [NioProcessor-2] - Found session to update: 86b7c160bb4b488d7498818e7bb27af8 organisation_id: 1
+DEBUG 03-27 09:16:01.823 FieldManager.java 68704 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:01.824 FieldManager.java 68705 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:01.961 FieldManager.java 68842 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:01.962 FieldManager.java 68843 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:02.077 FieldManager.java 68958 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:02.078 FieldManager.java 68959 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:02.224 FieldManager.java 69105 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:02.225 FieldManager.java 69106 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:02.373 FieldManager.java 69254 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:02.374 FieldManager.java 69255 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:02.587 FieldManager.java 69468 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:02.588 FieldManager.java 69469 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:02.826 FieldManager.java 69707 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:02.828 FieldManager.java 69709 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:03.054 FieldManager.java 69935 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:03.054 FieldManager.java 69935 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:03.319 FieldManager.java 70200 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:03.320 FieldManager.java 70201 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:03.574 FieldManager.java 70455 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:03.575 FieldManager.java 70456 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:03.883 FieldManager.java 70764 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:03.885 FieldManager.java 70766 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:04.282 FieldManager.java 71163 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:04.283 FieldManager.java 71164 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:04.642 FieldManager.java 71523 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:04.644 FieldManager.java 71525 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:05.010 FieldManager.java 71891 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:05.011 FieldManager.java 71892 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:05.369 FieldManager.java 72250 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:05.370 FieldManager.java 72251 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:05.758 FieldManager.java 72639 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:05.759 FieldManager.java 72640 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:06.126 FieldManager.java 73007 219 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting Labels for Language chinese simplified
+DEBUG 03-27 09:16:06.127 FieldManager.java 73008 252 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL!
+DEBUG 03-27 09:16:06.426 ScopeApplicationAdapter.java 73307 1782 org.apache.openmeetings.remote.red5.ScopeApplicationAdapter [NioProcessor-2] - UDPATE SESSION 86b7c160bb4b488d7498818e7bb27af8, 1
+DEBUG 03-27 09:16:06.427 SessiondataDao.java 73308 278 org.apache.openmeetings.data.basic.SessiondataDao [NioProcessor-2] - updateUser User: 1 || 86b7c160bb4b488d7498818e7bb27af8
+DEBUG 03-27 09:16:06.431 SessiondataDao.java 73312 293 org.apache.openmeetings.data.basic.SessiondataDao [NioProcessor-2] - Found session to update: 86b7c160bb4b488d7498818e7bb27af8 userId: 1
+DEBUG 03-27 09:16:06.465 UserManager.java 73346 1310 org.apache.openmeetings.data.user.UserManager [NioProcessor-2] - Usermanagement.getUserById
+DEBUG 03-27 09:16:06.895 FieldManager.java 73776 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.897 FieldManager.java 73778 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:06.902 FieldManager.java 73783 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.906 FieldManager.java 73787 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:06.918 FieldManager.java 73799 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.920 FieldManager.java 73801 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:06.928 FieldManager.java 73809 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.929 FieldManager.java 73810 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:06.935 FieldManager.java 73816 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.936 FieldManager.java 73817 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:06.942 FieldManager.java 73823 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.943 FieldManager.java 73824 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:06.948 FieldManager.java 73829 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.949 FieldManager.java 73830 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:06.955 FieldManager.java 73836 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.956 FieldManager.java 73837 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:06.967 FieldManager.java 73848 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.968 FieldManager.java 73849 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:06.972 FieldManager.java 73853 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.973 FieldManager.java 73854 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:06.978 FieldManager.java 73859 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.979 FieldManager.java 73860 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:06.985 FieldManager.java 73866 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.986 FieldManager.java 73867 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:06.991 FieldManager.java 73872 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.992 FieldManager.java 73873 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:06.997 FieldManager.java 73878 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:06.998 FieldManager.java 73879 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.002 FieldManager.java 73883 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.003 FieldManager.java 73884 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.010 FieldManager.java 73891 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.011 FieldManager.java 73892 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.018 FieldManager.java 73899 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.018 FieldManager.java 73899 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.024 FieldManager.java 73905 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.026 FieldManager.java 73907 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.032 FieldManager.java 73913 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.032 FieldManager.java 73913 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.037 FieldManager.java 73918 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.038 FieldManager.java 73919 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.049 FieldManager.java 73930 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.050 FieldManager.java 73931 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.055 FieldManager.java 73936 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.056 FieldManager.java 73937 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.062 FieldManager.java 73943 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.063 FieldManager.java 73944 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.068 FieldManager.java 73949 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.069 FieldManager.java 73950 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.074 FieldManager.java 73955 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.074 FieldManager.java 73955 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.078 FieldManager.java 73959 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.079 FieldManager.java 73960 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.084 FieldManager.java 73965 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.085 FieldManager.java 73966 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.089 FieldManager.java 73970 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.091 FieldManager.java 73972 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.097 FieldManager.java 73978 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.098 FieldManager.java 73979 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.105 FieldManager.java 73986 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.105 FieldManager.java 73986 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.111 FieldManager.java 73992 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.112 FieldManager.java 73993 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.116 FieldManager.java 73997 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.117 FieldManager.java 73998 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.121 FieldManager.java 74002 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.121 FieldManager.java 74002 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.126 FieldManager.java 74007 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.126 FieldManager.java 74007 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.131 FieldManager.java 74012 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.132 FieldManager.java 74013 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.136 FieldManager.java 74017 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.137 FieldManager.java 74018 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.143 FieldManager.java 74024 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.144 FieldManager.java 74025 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:07.150 FieldManager.java 74031 89 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Getting FieldById for Language chinese simplified
+DEBUG 03-27 09:16:07.150 FieldManager.java 74031 116 org.apache.openmeetings.data.basic.FieldManager [NioProcessor-2] - Language doesnt requiere RTL
+DEBUG 03-27 09:16:10.976 ConferenceService.java 77857 374 org.apache.openmeetings.remote.ConferenceService [NioProcessor-2] - ConferenceService.getAppointedMeetings
+DEBUG 03-27 09:16:11.030 AppointmentLogic.java 77911 90 org.apache.openmeetings.data.calendar.management.AppointmentLogic [NioProcessor-2] - getTodaysAppointmentsForUser
+DEBUG 03-27 09:16:11.031 AppointmentDao.java 77912 844 org.apache.openmeetings.data.calendar.daos.AppointmentDao [NioProcessor-2] - getAppoitmentbyRangeAndMember : UserID - 1
+DEBUG 03-27 09:16:11.049 AppointmentLogic.java 77930 95 org.apache.openmeetings.data.calendar.management.AppointmentLogic [NioProcessor-2] - Count Appointments for Today : 0
+DEBUG 03-27 09:16:11.049 ConferenceService.java 77930 397 org.apache.openmeetings.remote.ConferenceService [NioProcessor-2] - Found 0 rooms
+DEBUG 03-27 09:16:11.094 ConferenceService.java 77975 223 org.apache.openmeetings.remote.ConferenceService [NioProcessor-2] - getRoomsPublic user_level: 3
+DEBUG 03-27 09:16:11.179 ConferenceService.java 78060 138 org.apache.openmeetings.remote.ConferenceService [NioProcessor-2] - getRoomsByOrganisationAndType
+DEBUG 03-27 09:16:11.205 ConferenceService.java 78086 374 org.apache.openmeetings.remote.ConferenceService [NioProcessor-2] - ConferenceService.getAppointedMeetings
+DEBUG 03-27 09:16:11.270 AppointmentLogic.java 78151 90 org.apache.openmeetings.data.calendar.management.AppointmentLogic [NioProcessor-2] - getTodaysAppointmentsForUser
+DEBUG 03-27 09:16:11.271 AppointmentDao.java 78152 844 org.apache.openmeetings.data.calendar.daos.AppointmentDao [NioProcessor-2] - getAppoitmentbyRangeAndMember : UserID - 1
+DEBUG 03-27 09:16:11.279 AppointmentLogic.java 78160 95 org.apache.openmeetings.data.calendar.management.AppointmentLogic [NioProcessor-2] - Count Appointments for Today : 0
+DEBUG 03-27 09:16:11.280 ConferenceService.java 78161 397 org.apache.openmeetings.remote.ConferenceService [NioProcessor-2] - Found 0 rooms
+DEBUG 03-27 09:16:11.282 MailHandler.java 78163 224 org.apache.openmeetings.utils.mail.MailHandler [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] - resetSendingStatus enter ...
+DEBUG 03-27 09:16:11.307 MailHandler.java 78188 228 org.apache.openmeetings.utils.mail.MailHandler [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] - ... resetSendingStatus done.
+DEBUG 03-27 09:16:56.273 MeetingReminderJob.java 123154 34 org.apache.openmeetings.quartz.scheduler.MeetingReminderJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] - MeetingReminderJob.execute
+DEBUG 03-27 09:16:56.277 AppointmentDao.java 123158 929 org.apache.openmeetings.data.calendar.daos.AppointmentDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] - startStamp 2013-03-27 09:16:56.277
+DEBUG 03-27 09:16:56.277 AppointmentDao.java 123158 930 org.apache.openmeetings.data.calendar.daos.AppointmentDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] - stopStamp 2013-03-27 09:31:56.277
+DEBUG 03-27 09:16:56.280 AppointmentLogic.java 123161 423 org.apache.openmeetings.data.calendar.management.AppointmentLogic [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] - doScheduledMeetingReminder : no Appointments in range
+DEBUG 03-27 09:18:11.296 MailHandler.java 198177 233 org.apache.openmeetings.utils.mail.MailHandler [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] - sendMails enter ...
+DEBUG 03-27 09:18:11.303 MailHandler.java 198184 239 org.apache.openmeetings.utils.mail.MailHandler [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] - ... sendMails done.
+DEBUG 03-27 09:18:36.274 MeetingReminderJob.java 223155 34 org.apache.openmeetings.quartz.scheduler.MeetingReminderJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] - MeetingReminderJob.execute
+DEBUG 03-27 09:18:36.277 AppointmentDao.java 223158 929 org.apache.openmeetings.data.calendar.daos.AppointmentDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] - startStamp 2013-03-27 09:18:36.277
+DEBUG 03-27 09:18:36.278 AppointmentDao.java 223159 930 org.apache.openmeetings.data.calendar.daos.AppointmentDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] - stopStamp 2013-03-27 09:33:36.277
+DEBUG 03-27 09:18:36.280 AppointmentLogic.java 223161 423 org.apache.openmeetings.data.calendar.management.AppointmentLogic [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] - doScheduledMeetingReminder : no Appointments in range
+DEBUG 03-27 09:20:16.263 SessiondataDao.java 323144 410 org.apache.openmeetings.data.basic.SessiondataDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] - ****** clearSessionTable: 
+DEBUG 03-27 09:20:16.266 SessiondataDao.java 323147 414 org.apache.openmeetings.data.basic.SessiondataDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] - clearSessionTable: 0
+DEBUG 03-27 09:20:16.273 MeetingReminderJob.java 323154 34 org.apache.openmeetings.quartz.scheduler.MeetingReminderJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] - MeetingReminderJob.execute
+DEBUG 03-27 09:20:16.276 AppointmentDao.java 323157 929 org.apache.openmeetings.data.calendar.daos.AppointmentDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] - startStamp 2013-03-27 09:20:16.276
+DEBUG 03-27 09:20:16.276 AppointmentDao.java 323157 930 org.apache.openmeetings.data.calendar.daos.AppointmentDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] - stopStamp 2013-03-27 09:35:16.276
+DEBUG 03-27 09:20:16.279 AppointmentLogic.java 323160 423 org.apache.openmeetings.data.calendar.management.AppointmentLogic [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] - doScheduledMeetingReminder : no Appointments in range
+DEBUG 03-27 09:21:11.296 MailHandler.java 378177 233 org.apache.openmeetings.utils.mail.MailHandler [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] - sendMails enter ...
+DEBUG 03-27 09:21:11.298 MailHandler.java 378179 239 org.apache.openmeetings.utils.mail.MailHandler [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] - ... sendMails done.
+DEBUG 03-27 09:21:56.274 MeetingReminderJob.java 423155 34 org.apache.openmeetings.quartz.scheduler.MeetingReminderJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] - MeetingReminderJob.execute
+DEBUG 03-27 09:21:56.277 AppointmentDao.java 423158 929 org.apache.openmeetings.data.calendar.daos.AppointmentDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] - startStamp 2013-03-27 09:21:56.277
+DEBUG 03-27 09:21:56.277 AppointmentDao.java 423158 930 org.apache.openmeetings.data.calendar.daos.AppointmentDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] - stopStamp 2013-03-27 09:36:56.277
+DEBUG 03-27 09:21:56.279 AppointmentLogic.java 423160 423 org.apache.openmeetings.data.calendar.management.AppointmentLogic [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] - doScheduledMeetingReminder : no Appointments in range
+DEBUG 03-27 09:23:36.273 MeetingReminderJob.java 523154 34 org.apache.openmeetings.quartz.scheduler.MeetingReminderJob [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] - MeetingReminderJob.execute
+DEBUG 03-27 09:23:36.277 AppointmentDao.java 523158 929 org.apache.openmeetings.data.calendar.daos.AppointmentDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] - startStamp 2013-03-27 09:23:36.276
+DEBUG 03-27 09:23:36.277 AppointmentDao.java 523158 930 org.apache.openmeetings.data.calendar.daos.AppointmentDao [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] - stopStamp 2013-03-27 09:38:36.277
+DEBUG 03-27 09:23:36.279 AppointmentLogic.java 523160 423 org.apache.openmeetings.data.calendar.management.AppointmentLogic [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] - doScheduledMeetingReminder : no Appointments in range
+DEBUG 03-27 09:24:11.297 MailHandler.java 558178 233 org.apache.openmeetings.utils.mail.MailHandler [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] - sendMails enter ...
+DEBUG 03-27 09:24:11.298 MailHandler.java 558179 239 org.apache.openmeetings.utils.mail.MailHandler [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] - ... sendMails done.

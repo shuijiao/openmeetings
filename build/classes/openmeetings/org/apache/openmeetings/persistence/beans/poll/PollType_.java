@@ -12,7 +12,7 @@ import org.apache.openmeetings.persistence.beans.lang.Fieldvalues;
 @javax.persistence.metamodel.StaticMetamodel
 (value=org.apache.openmeetings.persistence.beans.poll.PollType.class)
 @javax.annotation.Generated
-(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Thu Mar 07 11:05:06 CST 2013")
+(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Wed Mar 27 09:07:18 CST 2013")
 public class PollType_ {
     public static volatile SingularAttribute<PollType,Boolean> isNumericAnswer;
     public static volatile SingularAttribute<PollType,Fieldvalues> label;

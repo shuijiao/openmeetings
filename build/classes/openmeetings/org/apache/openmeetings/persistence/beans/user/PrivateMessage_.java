@@ -14,7 +14,7 @@ import org.apache.openmeetings.persistence.beans.room.Room;
 @javax.persistence.metamodel.StaticMetamodel
 (value=org.apache.openmeetings.persistence.beans.user.PrivateMessage.class)
 @javax.annotation.Generated
-(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Thu Mar 07 11:05:06 CST 2013")
+(value="org.apache.openjpa.persistence.meta.AnnotationProcessor6",date="Wed Mar 27 09:07:18 CST 2013")
 public class PrivateMessage_ {
     public static volatile SingularAttribute<PrivateMessage,Boolean> bookedRoom;
     public static volatile SingularAttribute<PrivateMessage,String> email;
