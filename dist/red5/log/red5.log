@@ -294,3 +294,7 @@ FactoryConfiguration from 6 sources including 4 data with 3 toolboxes:
 2013-03-27 09:22:37,108 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
 2013-03-27 09:23:37,174 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
 2013-03-27 09:24:37,241 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
+2013-03-27 09:25:37,374 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
+2013-03-27 09:26:37,509 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
+2013-03-27 09:27:37,607 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
+2013-03-27 09:28:37,707 [NioProcessor-2] INFO  o.r.s.n.r.codec.RTMPProtocolDecoder - Action userservice.refreshSession
