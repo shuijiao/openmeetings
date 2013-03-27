@@ -146,7 +146,7 @@
 				if (i!=0) {
 					new lz.horizontalDropDownSpacer(this._content);
 				}
-                new lz.dropDownMenuListItem(this._content,{
+                var d1 = new lz.dropDownMenuListItem(this._content,{
                 			textvalue:this.list[i].name,
                 			text:this.list[i].label.value,
                 			isopen:this.list[i].isopen,
@@ -155,9 +155,15 @@
                 			params:this.list[i].params,
                 			textToolTip:list[i].tooltip.value
                			});
+   					Debug.write("这个ListItem的名称："+d1.text);  					
             }
             
+            Debug.write("这个ListItem的名称："+d1.text);
+           
+            
             this.fixWidth();
+            loadContent({action: "conferenceModuleRoomList", params: "publicTabButton"});
+            parent.parent.close();
 		]]>
 	</handler>	
 	
@@ -272,6 +278,8 @@
 	                  textToolTip:value[i].tooltip.value,
 	                  action:value[i].action
 	                 });
+	                 
+	                
 	         }
 	         
 	         if (canvas.cuser == "") {
@@ -324,6 +332,7 @@
 	         		quicklinkAct("userSettingsModule");
 	         	}
 			}
+			t1.onclick.sendEvent();
 	            
       	]]>
 	</handler>
